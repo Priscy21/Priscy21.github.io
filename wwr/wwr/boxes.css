@@ -1,0 +1,200 @@
+
+
+.content1 {
+    /* This is the parent of the activity 1 boxes. */
+}
+#parent {position: relative;}
+
+.red1 { 
+width: 575px; 
+height: 100px; 
+background-color: red; position: relative;left: 465px;
+} 
+
+.green_onee{
+width: 200px;
+height: 200px;
+background-color: green;position: relative; left: 800px;bottom: -30px; 
+}
+.green_one  {
+    
+    width: 200px;
+    height: 200px;
+    background-color:green;left: 500px;position: relative;bottom: 170px;
+}
+.yellow_onee {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;position: relative;left: 800px;bottom: 140px;
+}
+.yellow_one{
+    width: 200px;
+    height: 200px;
+    background-color:yellow;position: relative;left: 500px;bottom: 340px;
+}
+.blue1 {
+width: 575px; 
+height: 100px; 
+background-color: blue; position: relative; bottom: 305px;left: 465px;
+} 
+ /* Activity 2 styles */ 
+.content2 {
+    /* This is the parent of the activity 2 boxes. */
+}
+#parent {position: relative;}
+.red2 {
+width: 100px; 
+height: 100px; 
+background-color: red;
+} 
+.green2 { 
+width: 100px; 
+height: 100px; 
+background-color: green;position:absolute; bottom: 50px;left: 50px;
+ } 
+.yellow2 {
+width: 100px; 
+height: 100px; 
+background-color: gold;  position: absolute; bottom: -1px; left: 100px;
+} 
+.blue2 {
+width: 100px; 
+height: 100px; 
+background-color: blue;position: relative; bottom: -50px; left: 150px; 
+} 
+ /* Activity 3 styles */ 
+.content3 {
+    /* This is the parent of the activity 3 boxes. */
+}
+#parent {position: relative;}
+.red3 {
+width: 1510px; 
+height: 100px; 
+background-color: red; 
+ } 
+.green3 {
+width: 700px; 
+height: 300px; 
+background-color: green;position: relative;
+ } 
+.yellow3 {
+width: 710px; 
+height: 300px; 
+background-color: gold; position: relative; left: 800px; bottom: 300px;
+ } 
+.blue3 {
+width: 1510px;
+height: 100px; 
+background-color: blue; position: relative;bottom: 300px;
+ } 
+ /* Activity 4 styles */ 
+.content4 {
+    /* This is the parent of the activity 4 boxes. */
+    height: 400px;
+    
+}
+.red4 {
+width: 750px; 
+height: 420px; 
+background-color: red; 
+ } 
+.green4 {
+width: 760px; 
+height: 140px; 
+background-color: green; position: relative;left: 750px;bottom: 420px;
+} 
+.yellow4 {
+width: 760px; 
+height: 140px; 
+background-color: gold; position: relative;left: 750px; bottom: 420px;
+ } 
+.blue4 {
+width: 760px; 
+height: 140px; 
+background-color: blue; position: relative;left: 750px; bottom: 420px; 
+ } 
+ /* Activity 5 styles */ 
+ .content5 {
+    /* This is the parent of the activity 5 boxes. */
+     height: 400px;
+}
+.red5 { 
+width: 1500px; 
+height: 100px; 
+background-color: red;position: relative;z-index: 9;
+ } 
+.green5 { 
+width: 200px; 
+height: 200px; 
+background-color: green; position: relative;z-index: 9;
+
+ } 
+ 
+
+.yellow5 {
+width: 1505px; 
+height: 480px; 
+background-color: gold; position: relative;left: 0px;bottom: 320px;}
+
+
+
+
+.blue5 {
+width: 1500px; 
+height: 100px; 
+background-color: blue; position: relative; bottom: 420px;z-index: 9;;
+ } 
+ /* Activity 6 styles */ 
+ .content6 {
+    /* This is the parent of the activity 6 boxes. */
+}
+.red6 {
+width: 700px; 
+height: 200px; 
+background-color: red; 
+} 
+.green6 {
+width: 400px; 
+height: 400px; 
+background-color: green; position: relative;left: 0px;z-index: 10;;bottom: -300px;
+ } 
+.yellow6 {
+width: 200px; 
+height: 700px; 
+background-color: gold; position: relative;z-index: 9;left: 700px;bottom: 400px;
+} 
+.blue6 {
+width: 700px; 
+height: 700px; 
+background-color: blue; position: relative;left: 100px;bottom: 1200px;
+
+} 
+
+
+/* Do not make any changes below here */
+ .activity {
+width: 600px; 
+margin: 20px auto; 
+font-family: Arial, sans-serif; 
+border: 1px solid black; 
+padding: 10px; 
+clear:both; 
+overflow: auto;
+} 
+
+.hint {
+border: 1px solid grey;
+background: #e0e0e0;
+padding: .5em;
+position: relative;
+margin: 1em 0;
+}
+.hint h3 {
+margin: 0;
+}
+.hint:hover {
+background: #d0d0d0;
+}
+.hint > div {
+display: none;
+}
