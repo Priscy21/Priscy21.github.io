@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    font-family:'Yuji Syuku', serif; ;
+    background-image:url(krakenimages-7BpuzmcxlHU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40vh;
+    width: 40%;
+    background-color:rgba(0,0,0, 0.8);
+    font-size: 16px;
+    color:whitesmoke;
+}
