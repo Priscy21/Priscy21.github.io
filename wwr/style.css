@@ -18,13 +18,14 @@ body{
     width: 100%;
 }
 nav a{
-    color: white;
+    color: black;
 }
 nav a,
 #hero-msg h1, #hero-msg h4,
 .button-box,
 main section {
     text-align: center;
+    
 }
 
 
@@ -34,6 +35,7 @@ header{
     grid-template-columns: 150px auto;
     background: transparent;
 }
+
 nav a:hover,
 .book, .join,
 .book:hover, .join:hover{
@@ -41,6 +43,8 @@ nav a:hover,
 }
 nav a:hover{
     color: black;
+    background-color: blueviolet;
+    
 }
 #background,
 .msg,
@@ -61,6 +65,7 @@ footer h3 a:hover {
 .home-title {
     font-family: 'Gochi Hand', cursive;
     font-size: 2em;
+    
 }
 .msg {
     background-color:turquoise;
@@ -139,7 +144,6 @@ nav{
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
     
 }
 #hero-box{
@@ -147,7 +151,7 @@ nav{
     grid-row: 1/3;
     z-index: -1;
 }
-#hero-msg  {
+.msg  {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
@@ -156,6 +160,7 @@ nav{
 .home-title,h4{
     color: white;
     font-family: 'Gochi Hand', cursive;
+    
 }
 
 #background{
@@ -200,4 +205,14 @@ flex-direction: row-reverse;
 }
 h1{
     font-family: 'Gochi Hand', cursive; ;
+}
+#hero-im{
+grid-column: 1/4;
+grid-row: 1/2;
+
+}
+#hero-mg{
+grid-column: 2/3;
+grid-row: 1/2;
+text-align: center;
 }
