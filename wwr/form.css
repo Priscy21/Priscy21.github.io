@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
 #feedback {
     background-color: antiquewhite;
     position: absolute;
@@ -19,7 +20,10 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
-    background-color: chartreuse;
+    background-color: whitesmoke;
+    font-family: 'Padauk', sans-serif; 
+    border-color:skyblue;
+    border-width: 5px;
   }
   
   ul {
@@ -77,19 +81,20 @@ form {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: .5em;
-    background-color: grey;
     border-radius: 10px;
+    font-family: 'Padauk', sans-serif; 
+    background-color:springgreen;
+    color: black;
+    font-size: 15px;
+    
   }
   #msg{
-      background-color: grey;
-      color: white;
+    color:black;
   }
   #mail{
-      background-color: grey;
-      color: white;
+      color: black;
   }
   #name{
-      background-color: grey;
-      color:white;
+      color:black;
   }
                     

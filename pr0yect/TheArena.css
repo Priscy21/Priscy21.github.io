@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap');
 body{
     font-size: 22px;
     margin: 0;
@@ -62,6 +64,8 @@ nav a:hover{
     font-family:'Caveat Brush', cursive; 
     text-transform: uppercase;
     color: white;
+    font-size: 70px;
+    
     
 }
 .book{
@@ -88,5 +92,55 @@ grid-column: 1/2;
 }
 .button-box{
 text-align: center;
+}
+h1{
+    font-family: 'Baloo Thambi 2', cursive;
+    text-align: center;
+    font-size: 70px; 
+    color:indigo;
+}
+body{
+  background-color: #efefef;  
+  font-family:'Baloo Thambi 2', cursive; ;
+}
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form{
+   margin: 35px; 
+}
+.input-field{
+    width: 400px;
+    height:40px ;
+    margin: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px ;
+    font-family:'Baloo Thambi 2', cursive; 
+}
+.click{
+   border-radius: 20px; 
+   width:100px;
+   color: #fff;
+   margin-top: 18px ;
+   padding: 10px;
+   background-color:#47c35a ;
+   font-size: 15px;
+   border: none;
+   cursor: pointer;
+   font-family: 'Baloo Thambi 2', cursive;
 
 }
