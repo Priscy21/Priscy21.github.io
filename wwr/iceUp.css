@@ -6,6 +6,7 @@ h1{
 }
 p{
     font-family:  'Questrial', sans-serif;  
+    grid-column: 1/2;
 }
 
 .input-field{
@@ -20,6 +21,11 @@ p{
     
 
 }
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 90px 90px;
+}
 .click{
     background-color: blue;
     margin-top: 10px;
@@ -31,8 +37,9 @@ p{
     font-family:  'Questrial', sans-serif;
 }
 .img{
-    
-    
+    grid-column: 2/2;
+    opacity: 0.3;
+    grid-row: 2/2;
 
 
 }
