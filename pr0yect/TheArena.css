@@ -40,6 +40,10 @@ font-family:'Orbitron', sans-serif;
 
 
 }
+.img2{
+    width: 50%;
+
+}
 nav a:hover{
     background: yellow;
     transition: 0.5s;
@@ -63,10 +67,9 @@ nav a:hover{
     text-align: center;
     font-family:'Caveat Brush', cursive; 
     text-transform: uppercase;
-    color: white;
+    color:white;
     font-size: 70px;
-    
-    
+
 }
 .book{
     background-color: coral;
@@ -76,10 +79,13 @@ nav a:hover{
     font-family: 'Orbitron', sans-serif;
     padding: 20px;
 border-radius: 10px;
+
 }
 
 .hero{
     display: grid;
+
+    
     
 }
 #main-box{
@@ -89,6 +95,7 @@ grid-column: 1/2;
 #main-msg{
 grid-row: 1/2;
 grid-column: 1/2;
+
 }
 .button-box{
 text-align: center;
@@ -100,18 +107,20 @@ body{
 }
 .contact-box{
     
-    margin-top: 70px;
-    width: 500px;
+    margin-top: 120px;
     background-color: #fff;
     box-shadow: 0 0 20px 0 #999;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 form{
-   margin: 35px; 
-   padding-right: 100px;
+   margin: 35px auto; 
+   width: 500px;
+   
+   display: flex;
+   flex-direction: column;
    
    
 }
@@ -123,6 +132,11 @@ form{
     border-radius: 14px;
     outline: none;
     font-family: 'Orbitron', sans-serif;
+    background-color:lightgrey;
+   
+}
+.input-field::placeholder{
+    color:black;
 }
 .textarea-field{
     height: 150px;
@@ -131,6 +145,8 @@ form{
 }
 .click{
    border-radius: 20px; 
+   margin-bottom: 20px;
+   align-self: flex-end;
    width:100px; 
    color: black;
    margin-top: 18px ;
@@ -141,4 +157,21 @@ form{
    cursor: pointer;
    font-family: 'Orbitron', sans-serif;
 
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#3f7d20;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+h3 a{
+    color: white;
+}
+.social img{
+    margin-top: 12px;
+}
+.hero{
+    width: 100%;
 }
