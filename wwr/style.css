@@ -196,7 +196,7 @@ nav{
 flex-direction: row-reverse;
 }
 .click{
-    background-color: darkorange;
+    background-color: orange;
     border-radius: 5px;
     width: 100px;
     height: 40px;

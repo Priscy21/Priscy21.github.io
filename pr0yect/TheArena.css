@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Orbitron:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
 body{
     font-size: 22px;
     margin: 0;
@@ -21,6 +23,7 @@ nav{
     overflow: auto;
     display: grid;
     grid-template-columns: 200px 1fr;
+
 }
 li:hover{
    background-color: yellow; 
@@ -47,7 +50,7 @@ font-family:'Orbitron', sans-serif;
 nav a:hover{
     background: yellow;
     transition: 0.5s;
-    text-transform: uppercase;
+    text-transform:uppercase;
 }
 
 .logo img{
@@ -69,6 +72,8 @@ nav a:hover{
     text-transform: uppercase;
     color:white;
     font-size: 70px;
+
+  
 
 }
 .book{
@@ -103,7 +108,7 @@ text-align: center;
 
 body{
 
-  font-family:'Baloo Thambi 2', cursive; ;
+  font-family:'Baloo Thambi 2', cursive; 
 }
 .contact-box{
     
@@ -114,6 +119,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    
 }
 form{
    margin: 35px auto; 
@@ -132,7 +138,7 @@ form{
     border-radius: 14px;
     outline: none;
     font-family: 'Orbitron', sans-serif;
-    background-color:lightgrey;
+    
    
 }
 .input-field::placeholder{
@@ -174,4 +180,41 @@ h3 a{
 }
 .hero{
     width: 100%;
+}
+.one, .two, .three{
+    padding: 30px;
+    display: flex;
+}
+.card-img, .info{
+    flex: 0.5;
+    text-align: center;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.card-img{
+    width: 50%;
+    
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.click{
+    background-color:royalblue;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-family: 'Caveat Brush', cursive; 
+    text-transform: uppercase;
+    font-size: 60px;
+}
+p{
+    font-family:'Orbitron', sans-serif;  
+}
+h2{
+    font-family:  'Sedgwick Ave', cursive;;
 }
