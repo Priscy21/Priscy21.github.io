@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,200&display=swap');
+
 body{
     font-size: 22px;
     margin: 0;
@@ -248,4 +249,34 @@ color:#bfbfbf
 .description{
     font-family:'Urbanist', sans-serif ;
     font-weight: bold;
+}.se{
+    background-color: #5465ff;
+}
+p{
+    text-align: center;
+    
+}
+.message{
+    color: yellow;
+    font-family: 'Sedgwick Ave', cursive;
+    text-transform:uppercase;
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+.rewards{
+    display: flex;
+}
+.sum{
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+.card{
+    width: 50%;
+    margin-top: 10px;
+    flex: 0.5;
+    text-align: center;
+   
 }
